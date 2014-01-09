@@ -1,0 +1,30 @@
+extends layout
+
+block head
+  link(rel='stylesheet', href='/javascripts/vendor/bootstrap-css/css/bootstrap.css')
+
+  script(type='text/javascript', src='/javascripts/controllers/TodoListController.js')
+  script(type='text/javascript', src='/javascripts/basic.js')
+
+block content
+  h1(style="padding-left: 25px") Home Portal
+  div.myfilter
+    h3(style="padding-left: 25px")
+      a(href="#", filter="*", class="current") All&nbsp;
+      a(href="#", filter=".social") Social&nbsp;
+      a(href="#", filter=".nonsocial") Non-Social
+  #container
+    #clock.item.nonsocial
+      #time
+      #aop 
+    #news.item.nonsocial
+      h2.header Top News Stories  
+      | from 
+      a(href="http://www.yahoo.com", style="color:0xffffff") Yahoo!
+      #stories
+    #gmail.item.social
+      h2.header gmail
+    #facebook.item.social
+      h2.header Facebook
+    #twitter.item.social
+      h2.header Twitter yo

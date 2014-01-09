@@ -1,0 +1,57 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #8C8984;
+}
+
+a {
+  color: #005B9A;
+}
+
+.item {
+  background-color: #74C2E1;
+  margin: 10px;
+  padding: 5px;
+  color: #ffffff;
+}
+
+#clock {
+  width: 400px;
+  height: 200px;
+}
+
+#gmail {
+  height: 420px;
+  width: 400px;
+}
+
+#facebook {
+  height:420px;
+  width: 400px;
+}
+
+#news {
+  height: 420px;
+  width: 400px;
+}
+
+#twitter {
+  width: 820px;
+  height: 200px;
+}
+
+#time {
+  font-size: 140px;
+  float:left;
+}
+
+#aop {
+  font-size: 60px;
+  float:right;
+  padding-top: 30px;
+  padding-right: 10px;
+}
+
+h2.header {
+  margin: 5px;
+}
